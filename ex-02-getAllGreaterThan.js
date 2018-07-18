@@ -16,6 +16,23 @@
 //
 //------------------------------------------------------------------
 
+function getAllGreaterThan(number, array){
+    var finalArray = [];
+
+    for (var i = 0; i < array.length; i++){
+        var currentNumber = array[i];
+
+        if(currentNumber > number){
+            finalArray.push(currentNumber);
+        }
+    }
+    console.log(finalArray);
+    return finalArray;
+}
+
+
+
+
 
 // *** DONT TOUCH ***
 
